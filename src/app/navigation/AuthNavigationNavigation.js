@@ -1,24 +1,31 @@
 import React from 'react';
-import OnboardingScreens from '../screens/Onboarding/OnboardingScreens';
 import {createStackNavigator} from '@react-navigation/stack';
 import Start from '../screens/Authentication/Start';
-import AuthNavigationNavigation from './AuthNavigationNavigation';
+import SingUp from '../screens/Authentication/SingUp';
+import Login from '../screens/Authentication/Login';
 
-export default function OnboardingNavigation() {
+export default function AuthNavigationNavigation() {
   const Stack = createStackNavigator();
 
   return (
     <Stack.Navigator>
       <Stack.Screen
-        name="OnboardingScreens"
-        component={OnboardingScreens}
+        name="Start"
+        component={Start}
         options={{
           headerShown: false,
         }}
       />
       <Stack.Screen
-        name="AuthNavigationNavigation"
-        component={AuthNavigationNavigation}
+        name="Login"
+        component={Login}
+        options={{
+          headerShown: false,
+        }}
+      />
+      <Stack.Screen
+        name="SingUp"
+        component={SingUp}
         options={{
           headerShown: false,
         }}

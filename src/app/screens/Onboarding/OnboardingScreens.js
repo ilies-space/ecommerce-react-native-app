@@ -3,13 +3,20 @@ import {View} from 'react-native';
 import Onboarding from 'react-native-onboarding-swiper';
 import FontAwesome5 from 'react-native-vector-icons/FontAwesome5';
 import MaterialIcons from 'react-native-vector-icons/MaterialIcons';
+import {useNavigation} from '@react-navigation/native';
 
 export default function OnboardingScreens() {
+  const navigation = useNavigation();
   return (
     <View style={{flex: 1}}>
       <Onboarding
+        onSkip={() => {
+          console.log('DONE');
+          navigation.navigate('AuthNavigationNavigation');
+        }}
         onDone={() => {
           console.log('DONE');
+          navigation.navigate('AuthNavigationNavigation');
         }}
         pages={[
           {
