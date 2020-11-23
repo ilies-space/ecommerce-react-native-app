@@ -1,0 +1,78 @@
+inspiration : https://www.instamobile.io/app-templates/react-native-ecommerce-app-template/
+------------
+Features – React Native E-commerce App Template
+Shopping Experience
+
+Home
+Main Products Carousel
+Featured categories horizontal tray
+Featured products carousel
+Products Grid view
+Products
+Products List view
+Products Details view
+Photo Gallery, with unlimited product photos
+Color picker (optional)
+Size picker (optional)
+Share to Messenger, Whatsapp, Wechat, Twitter, E-mail, Copy Link, etc.
+Wishlist
+Categories
+Categories list view
+Featured Categories
+Dynamic Photos
+Shopping Cart
+Add to Cart functionality
+Remove from Cart
+Edit Shopping Cart
+Quick Checkout with Apple Pay/Android Pay
+Order History
+Reorder functionality
+Search
+Integration with Firestore
+Text matching
+Checkout Experience
+
+Shopping Cart
+Shipping Address
+Shipping Methods
+Payment Methods
+Add New Card
+Place Order
+Stripe Integration
+Apple Pay & Android Pay (Google Pay), for iOS and Android, respectively
+Onboarding
+
+Onboarding Walkthrough
+Customer Management
+Registration
+Login with E-mail & Password
+Login with Facebook
+Logout
+Full integration with Firebase Auth
+Splash Screen
+App Icon
+Backend
+
+Database system with Firebase Firestore
+User management with Firebase Authentication
+Photo storage with Firebase Storage
+Payments with Stripe SDK (integrated with Stripe Dashboard)
+Other features
+
+Profile Screen
+Edit Account Screen
+Settings
+Contact Us
+Order History
+Profile Photo editing
+Drawer Menu
+Technical Specs
+React Native Source Code
+Sketch UI Kit project
+Highly modularized codebase
+Optimized for both Android and iOS
+Backend integration with Firebase Auth, Firebase Storage, and Firebase Firestore
+Integration with Facebook SDK
+Stripe Payments
+Android Pay and Apple Pay support
+
