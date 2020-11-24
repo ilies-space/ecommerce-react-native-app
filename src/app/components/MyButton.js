@@ -21,6 +21,7 @@ export default function MyButton(props) {
         style={{
           color: props.color,
           textAlign: 'center',
+          fontSize: 25,
         }}>
         {props.text}
       </Text>
